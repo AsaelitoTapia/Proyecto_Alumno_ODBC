@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #000; /* Texto negro */
+}
+.title-border {
+    border-bottom: 2px solid #000; /* Línea inferior azul */
+    padding-bottom: 10px; /* Espacio entre el texto y la línea */
+    color: #000000; /* Color del texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra de texto */
+}
+
+.sub-title-border {
+    border-bottom: 1px solid #6c757d; /* Línea inferior gris */
+    padding-bottom: 8px; /* Espacio entre el texto y la línea */
+    margin-top: 20px; /* Espacio superior */
+    color: #343a40; /* Color del texto */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Sombra de texto */
+}
+/* Contenedor del formulario */
+.container {
+    max-width: 600px; /* Limitar el ancho del formulario */
+    margin-top: 50px; /* Espacio superior */
+}
+
+/* Estilos para el encabezado h2 */
+
+
+/* Estilos para los campos de formulario */
+.form-control {
+    border: 2px solid #000; /* Borde negro */
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Cambia el borde al enfocar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra azul al enfocar */
+}
+
+/* Estilos para el botón primario */
+.btn-primary {
+    background-color: #000; /* Fondo negro para el botón */
+    border-color: #000; /* Borde negro para el botón */
+    transition: background-color 0.3s ease; /* Transición suave para el botón */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse */
+    border-color: #0056b3; /* Cambia el borde al pasar el mouse */
+}
+
+/* Estilos para el borde del formulario */
+.border {
+    border: 1px solid #000; /* Borde negro para el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco para el formulario */
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-title {
+    animation: fadeInUp 1.5s ease-out; /* Aplicar animación al título */
+}
+.btn-custom-black {
+    background-color: #000; /* Fondo negro */
+    color: #fff;            /* Texto blanco */
+    border-color: #000;     /* Borde negro */
+}
+
+.btn-custom-black:hover {
+    background-color: #333; /* Fondo gris oscuro al pasar el mouse */
+    border-color: #333;     /* Borde gris oscuro al pasar el mouse */
+}
